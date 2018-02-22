@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="row">
+
+        <div class= "col-md-12">
+            <h1>Super Jquery World</h1>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class= "col-md-12">
+            <h5>Game Details</h5>
+            <p3>You will be given a random number at the start of the game.</p3>
+            <p3>There are four items below. By clicking on a item you will add a specific amount of points to your total score.</p3>
+            <p3>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p3>
+            <p3>The value of each item is hidden from you until you click on it.</p3>
+            <p3>Each time when the game starts, the game will change the values of each crystal.</p3>
+        </div>
+
+    </div>
+
+    
+    <div class="row">
+        
+        <div class="col-md-2"></div>
+        <div class= "col-md-3 randomNumberDiv">
+           <p id="randomNumber">random#</p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class= "col-md-3 scoreDiv">
+           <p id="userScore">score:</p>
+        </div>
+        <div class="col-md-2"></div>
+
+    </div>
+
+<br>
+
+
+    <div class="row">
+            
+            <div class= "col-md-3 icon" value="brick">
+                <img src="assets/images/brick.jpg" class="img-responsive" alt="brick" width="80" height="80">
+            </div>
+
+            <div class= "col-md-3 icon" value="mushroom">
+                <img src="assets/images/mushroom.jpg" class="img-responsive" alt="mushroom" width="80" height="80">
+            </div>
+
+            <div class= "col-md-3 icon" value="question">
+                <img src="assets/images/question.jpg" class="img-responsive" alt="question" width="80" height="80">
+            </div>
+
+            <div class= "col-md-3 icon" value="star">  
+                <img src="assets/images/star.jpg" class="img-responsive" alt="star" width="80" height="80">
+            </div>
+            
+    </div>    
+
+<br>    
+
+    <div class="row winsLossesDiv">
+            <div class="col-md-2"></div>
+            <div class="col-md-3">
+            <p id="winsTally">wins: </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class= "col-md-3">
+            <p id="lossesTally">losses: </p>
+            </div>
+            <div class="col-md-2"></div>
+    </div>
+
+</div>
+
+
+
+</body>
+
+</html>
+

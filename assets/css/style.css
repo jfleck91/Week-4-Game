@@ -1,0 +1,30 @@
+body {
+    background: url("../images/mario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+color: red;
+}
+
+container {
+align-content: center;
+}
+
+p{
+margin: 19px;
+font-size: 15px;
+padding: 12px;
+background-color: yellow;
+}
+
+p3{
+font-size: 15px;
+}
+
+h5{
+margin: 15px;
+color: greenyellow;
+}
